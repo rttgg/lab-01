@@ -1,94 +1,118 @@
-div:nth-child(1) {
-  /* border: gray solid 1px; */
-  width: 960px;
-  height: 100px;
-  align-self: center;
-  box-sizing: border-box;
-  /* background:lightgrey; */
-}
-
-div:nth-child(2) {
-  /* border: gray solid 1px; */
-  width: 200px;
-  height: 600px;
-  /* background: lightgray; */
-  
-}
-div:nth-child(3) {
-  /* border: gray solid 1px; */
-  width: 380px;
-  height: 200px;
-  
-  /* background: lightgray; */
-}
-
-
-
- #c {
-  
-  /* border: gray solid 1px; */
-  width: 380px;
-  height: 200px;
-  /* background: lightgray; */
-} 
-
-#d {
-  /* border: gray solid 1px; */
-  width: 380px;
-  height: 200px;
-  /* background: lightgray; */
-} 
-
-#e {
-  /* border: gray solid 1px; */
-  width: 190px;
-  height: 250px;
-  /* background: lightgray; */
-}
-
-
-#f {
-  /* border: gray solid 1px; */
-  width: 190px;
-  height: 250px;
-  /* background: lightgray; */
-}
-
-#g {
-  /* border: gray solid 1px; */
-  width: 190px;
-  height: 250px;
-  /* background: lightgray; */
-}
-
-#h {
-  /* border: gray solid 1px; */
-  width: 190px;
-  height: 250px;
-  /* background: lightgray; */
-}
-
-#i {
-  /* border: gray solid 1px; */
-  width: 760px;
-  height: 150px;
-  /* background: lightgray; */
-}
-
-@media(max-width:700px){
-  div {
+  body {
     margin: auto;
+    width: 480px;
+  }
+  #a {
+  
+    width: 480px;
+    height: 75px;
+    align-self: center;
+    box-sizing: border-box;
+    background: green;
+  
   }
 
-}
-
-@media(max-width:700px){
-  div {
+  #b {
+    
+    width: 480px;
+    height: 150px;
     float: left;
+    background: yellow;
+  
+    
   }
-}
+  #c {
+    width: 480px;
+    height: 125px;
+    float: left;
+    background: red;
+    
+    
+  }
 
-body {
-  margin: auto;
-  width: 900px;
-}
+  #d {
+    width: 480px;
+    height: 125px;
+    float: left;
+    background: yellowgreen;
+  
+  
+  } 
+
+
+
+
+  #e {
+    
+    width: 240px;
+    height: 250px;
+    float: left;
+    background: plum;
+  }
+
+
+  #f {
+  
+    width: 240px;
+    height: 250px;
+    float: left;
+    background: purple;
+  
+  }
+
+  #g {
+  
+    width: 240px;
+    height: 250px;
+    float: left;
+    background: mediumblue;
+    
+  }
+
+  #h {
+    
+    width: 240px;
+    height: 250px;
+    float: left;
+    background: goldenrod;
+
+  }
+
+  #i {
+    
+    width: 480px;
+    height: 80px;
+    float: left;
+    background: burlywood;
+    
+  }
+
+  @media(min-width:768px){
+    body {
+      width: 960px;
+    }
+    #a {
+      width: 960px;
+      height: 100px;
+    }
+    #b { 
+      width: 200px;
+      height: 600px;
+    }
+    #c, #d {
+      width: 380px;
+      height: 200px;
+    }
+
+    #e, #f, #g, #h{
+      width: 190px;
+      height: 250px;
+    }
+  #i {
+    width: 760px;
+    height: 150px;
+  }
+  }
+
+
+
