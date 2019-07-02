@@ -1,15 +1,25 @@
-div {
-  /* display: flex; */
-  border: gray solid 1px;
-  background: lightgray;
-}
-
-
-  .container {
-    width: 100%;
-    height: auto;
-    display: flex;
+  div {
+    /* display: flex; */
+    border: gray solid 1px;
+    background: lightgray;
   }
-.container1{
-  display: flex;
-}
+
+
+    .container {
+      width: 480;
+      height: auto;
+      float: left;
+      overflow: hidden;
+    
+    }
+  .container1{
+    overflow: hidden;
+    float: left;
+    width: 480;
+  }
+
+  @media(min-width: 768px){
+    .container, .container1 {
+      width: 760px;
+    }
+  }
