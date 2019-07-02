@@ -1,0 +1,15 @@
+div {
+  /* display: flex; */
+  border: gray solid 1px;
+  background: lightgray;
+}
+
+
+  .container {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+.container1{
+  display: flex;
+}
