@@ -16,15 +16,19 @@
     
     width: 480px;
     height: 150px;
-    float: left;
+    display: flex;
+    flex-flow: row wrap;
     background: yellow;
+  
   
     
   }
   #c {
     width: 480px;
     height: 125px;
-    float: left;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row wrap; 
     background: red;
     
     
@@ -33,7 +37,8 @@
   #d {
     width: 480px;
     height: 125px;
-    float: left;
+    display: flex;
+    flex-wrap: nowrap; 
     background: yellowgreen;
   
   
@@ -46,7 +51,8 @@
     
     width: 240px;
     height: 250px;
-    float: left;
+    display: flex;
+    flex-wrap: nowrap; 
     background: plum;
   }
 
@@ -55,7 +61,8 @@
   
     width: 240px;
     height: 250px;
-    float: left;
+    display: flex;
+    flex-wrap: nowrap; 
     background: purple;
   
   }
@@ -64,7 +71,8 @@
   
     width: 240px;
     height: 250px;
-    float: left;
+    display: flex;
+    flex-wrap: nowrap; 
     background: mediumblue;
     
   }
@@ -73,7 +81,8 @@
     
     width: 240px;
     height: 250px;
-    float: left;
+    display: flex;
+    flex-wrap: nowrap; 
     background: goldenrod;
 
   }
@@ -82,7 +91,8 @@
     
     width: 480px;
     height: 80px;
-    float: left;
+    display: flex;
+    flex-wrap: nowrap; 
     background: burlywood;
     
   }

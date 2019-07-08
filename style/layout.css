@@ -1,5 +1,5 @@
   div {
-    /* display: flex; */
+  
     border: gray solid 1px;
     background: lightgray;
   }
@@ -8,14 +8,21 @@
     .container {
       width: 480;
       height: auto;
-      float: left;
       overflow: hidden;
+      display: flex;
+      flex-flow: wrap;
+      flex-direction: row;
+      
     
     }
   .container1{
     overflow: hidden;
-    float: left;
     width: 480;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+    
   }
 
   @media(min-width: 768px){
