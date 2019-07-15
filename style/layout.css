@@ -1,32 +1,92 @@
-  div {
+main {
+  width: 80%;
+}
+
+main section {
+  display: flex;
+}
+
+nav {
+  border-bottom: solid blue 1px;
+}
+
+aside {
+  height: 600px;
+  width: 20%;
+  margin-right: 0;
+}
+
+nav, aside, section > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Desktop View */
+@media screen and (min-width: 992px){
+  nav {
+    width: 100%;
+    height: 100px;
+    background-color: greenyellow;
+  }
+
+  nav:hover {
+    background-color: green;
+  }
   
-    border: gray solid 1px;
-    background: lightgray;
+  aside {
+    border-right: solid grey 1px;
+    background-color: blueviolet;
+  }
+  aside:hover {
+    background-color: green;
+  }
+}
+
+/* Tablet view */
+@media screen and (min-width: 768px) and (max-width: 991px){
+  nav {
+    width: 100%;
+    height: 85px;
+    background-color: white;
+  }
+  nav:hover {
+    background-color: green;
   }
 
+  aside {
+    border-right: solid grey 1px;
+    background-color: green;
+  }
+  aside:hover {
+    background-color: greenyellow;
+  }
+}
 
-    .container {
-      width: 480;
-      height: auto;
-      overflow: hidden;
-      display: flex;
-      flex-flow: wrap;
-      flex-direction: row;
-      
-    
-    }
-  .container1{
-    overflow: hidden;
-    width: 480;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-   
-    
+/* Mobile View */
+@media screen and (max-width: 767px){
+  nav {
+    width: 100%;
+    height: 75px;
+    background-color: red;
   }
 
-  @media(min-width: 768px){
-    .container, .container1 {
-      width: 760px;
-    }
+  nav:hover {
+    background-color: green;
   }
+  
+  aside {
+    width: 100%;
+    height: 150px;
+    border-bottom: solid violet 1px;
+    background-color: brown;
+  }
+  aside:hover {
+    background-color: green;
+  }
+
+  main {
+    width: 100%;
+  }
+}
